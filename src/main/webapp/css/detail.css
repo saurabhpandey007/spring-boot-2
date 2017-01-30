@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* !!! */
+}
+.centered {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid black;
+  
+}
+table td, table th {
+  border: 1px solid black;
+}
+table th {
+  width: 170px;
+}
+table tr:first-child th {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  width: 10px;
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+h2{
+  color: blue;
+}
+h3{
+  color: green;
+}
